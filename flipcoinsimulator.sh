@@ -37,5 +37,5 @@ if [[ $((coin['Heads'])) -eq $((coin['Tails'])) ]]; then
 elif [[ $((coin['Heads'])) -gt $((coin['Tails'])) && $choice -eq 0 ]]; then
 	echo "You Won."
 else
-	echo "You Lost."
+	echo "You Lost"
 fi
